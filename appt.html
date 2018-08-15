@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- AIzaSyCuRj6FhpiYDOADhhhJzgvKkWQi8wo0K0k -->
+
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Hacienda Collision Center</title>
+	</head>
+
+	<body>
+
+		<!-- Header Showcase -->
+		<header id="showcase" class="grid">
+		  <div class="bg-image"></div>
+		  <div class="content-wrap">
+		    <h1>Welcome to Hacienda Collision Center</h1>
+		    <p>
+				Fill out the forms below to schedule an appointment or a free consultation!
+
+			</p><br><br><br><br><br><br><br><br>
+		  </div>
+		</header>
+
+		<!-- Main Area -->
+		<main id="main">
+
+			    <div class="contact-form"><br>
+			      <h3 class="content-title">Contact Information*</h3>
+				  <form action="contact-form" action = "" method = "post">
+					<label for="firstName">First Name</label>
+				  	<input type="text" name = "firstName" placeholder = "First Name*"> <br>
+					<label for="lastName">Last Name</label>
+					<input type="text" name = "lastName" placeholder = "Last Name*"> <br>
+					<label for="address">Address</label>
+					<input type="text" name = "address" placeholder = "Address"> <br>
+					<label for="city">City</label>
+					<input type="text" name = "city" placeholder = "City"> <br>
+					<label for="state">State</label>
+					<input type="text" name = "state" placeholder = "State"> <br>
+					<label for="zipCode">Zip Code</label>
+					<input type="text" name = "zipCode" placeholder = "Zip Code*"> <br>
+					<label for="email">Email</label>
+					<input type="email" name = "email" placeholder = "Email Addres*"><br>
+					<label for="phone">Phone</label>
+					<input type="tel" name = "phone" placeholder = "Phone*"><br>
+				  </form>
+
+					<h3 class = "content-title">Appointment Information</h3>
+					<form action="appt-information" class="" method = "post"><br>
+						<label for="date">Date</label>
+					  	<input type="date" name = "date" placeholder = "mm/dd/yy"><br>
+						<label for="time">Time</label>
+						<select name="time" id="Time">
+							<option value="anytime">Anytime</option>
+							<option value="morning">Morning</option>
+							<option value="midday">Mid-Day</option>
+							<option value="afternoon">Afternoon</option>
+							<option value="evening">Evening</option>
+						</select>
+					</form>
+
+					<h3 class="content-title">Vehicle Information*</h3>
+					<form action="appt-information" class="" method = "post"><br>
+						<label for="year">Year</label>
+					  	<input type="text" name = "year" placeholder = "Year*"><br>
+						<label for="make">Make</label>
+						<input type="text" name = "make" placeholder = "Make*"><br>
+						<label for="model">Model</label>
+						<input type="text" name = "model" placeholder = "Model*"><br>
+						<label for="mileage">Mileage</label>
+						<input type="text" name = "mileage" placeholder = "Mileage"><br>
+						<label for="licensePlate">License Plate</label>
+						<input type="text" name = "licensePlate" placeholder = "License Plate Number"><br>
+						<style>
+						label textarea{
+							vertical-align: middle;
+						}
+						</style>
+						<label for="servce">Service Needed</label>
+						<textarea name="service" id="" cols="60" rows="4" placeholder = "Service..."></textarea><br>
+						<label for="comments">Comments</label>
+						<textarea name="comments" id="" cols="60" rows="4" placeholder = "Comments"></textarea><br>
+
+						<button type = "submit" name = "submit"> Submit </button>
+					</form>
+
+			    </div>
+
+		</main>
+
+		<!-- Footer -->
+		<footer id="main-footer" class="grid">
+		  <div><a href="https://www.haciendaford.com">Hacienda Ford</a></div>
+		  <div>Copyright &copy; 2018 FordDirect </div>
+		</footer>
+	</body>
+
+</html>
